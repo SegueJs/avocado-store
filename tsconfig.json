@@ -22,7 +22,8 @@
     "paths": {
       "@database": ["database/db.ts"],
       "@components/*": ["components/*"],
-      "@styles/*": ["styles/*"]
+      "@styles/*": ["styles/*"],
+      "@images/*": ["public/images/*"]
     }
   },
   "include": [
