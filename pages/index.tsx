@@ -12,7 +12,7 @@ const Home: NextPage = () => {
       </Head>
       <div className={styles.landing}>
         <nav className={styles.nav}>
-          <h1>SEGUE</h1>
+          <h1>Change</h1>
           <div className={styles.options}>
             <ul>
               <li>
