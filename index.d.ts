@@ -25,6 +25,11 @@ type TProduct = {
     attributes: TProductAttributes
 }
 
+type TCartItem = {
+    item: TProduct,
+    qty: number
+}
+
 type TAPIAVODetailResponse = TProduct
 
 type TAPIAvoResponse = {

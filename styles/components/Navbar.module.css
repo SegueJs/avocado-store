@@ -1,0 +1,43 @@
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1rem 0;
+    position: sticky;
+    top: 0;
+    background: #010101aa;
+    z-index: 100;
+    backdrop-filter: blur(1rem);
+}
+
+.navbar ul {
+    display: flex;
+    list-style: none;
+}
+
+.navbar ul a{
+    text-decoration: none;
+    color: #f4f4f4;
+}
+
+.navbar ul a:hover{
+    text-decoration: underline 2px solid #f4f4f4;
+}
+
+.navbar li {
+    margin: 0 1rem;
+}
+
+
+.logo {
+    font-size: 100%;
+    color: #f4f4f4;
+    text-decoration: none;
+}
+
+.home {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

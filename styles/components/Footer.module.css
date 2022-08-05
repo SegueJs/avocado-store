@@ -1,0 +1,42 @@
+.footer {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    padding: 1rem;
+    background: #26282caa;
+}
+
+.info{
+    display: flex;
+    width: 70%;
+    justify-content: space-around;
+    margin: 3rem 0;
+}
+
+.section {
+    width: 300px;
+}
+
+.section h2{
+    font-size: 1rem;
+    font-weight: bold;
+    margin: .5rem 0;
+}
+
+.section p, .section a{
+    font-weight: lighter;
+    display: block;
+    color: #f3f3f3;
+    text-decoration: none;
+}
+
+.section a:hover{
+    text-decoration: underline 2px solid #f3f3f3;
+}
+
+@media (max-width: 800px) {
+    .info {
+        flex-flow: column;
+        align-items: center;
+    }
+}

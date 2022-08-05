@@ -1,9 +1,12 @@
+import Footer from "@components/Footer"
+import Navbar from "@components/Navbar"
+
 const Layout: React.FC <{children: React.ReactNode}> = ({children}) => {
     return(
         <>
-            <h1>Header</h1>
+            <Navbar />
             {children}
-            <h1>Footer</h1>
+            <Footer />
         </>
     )
 }

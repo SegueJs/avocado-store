@@ -1,0 +1,161 @@
+.landing {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Navbar */
+
+.nav {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    padding: 2rem 1rem;
+    display: flex;
+    align-items: center;
+    padding-left: 4rem;
+}
+
+.nav h1 {
+    font-weight: 700;
+    letter-spacing: .3rem;
+}
+
+/* Options */
+
+.options {
+    width: 40%;
+    margin-left: 5%;
+}
+
+.options ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.options a {
+    text-decoration: none;
+    color: #F4F4F4;
+    font-size: 1.2rem;
+}
+
+.options a:hover {
+    text-decoration: underline 3px solid #fafafa;
+}
+
+
+/* Banner */
+
+.banner {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}
+
+/* Section */
+
+.section {
+    display: flex;
+    flex-flow: column;
+    width: 50%;
+}
+
+.title span {
+    background: #11998e;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #38ef7d, #11998e);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #38ef7d, #11998e);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    font-size: 4rem;
+    font-weight: 700;
+}
+
+.section h1 {
+    font-size: 4rem;
+    font-weight: 700;
+}
+
+.section p {
+    margin-top: 1rem;
+    font-weight: lighter;
+    font-size: 2rem;
+    padding: 0 10rem 0 0;
+}
+
+/* Button */
+
+.button {
+    margin-top: 2rem;
+    padding: 5rem;
+    background: #fafafa;
+    border: none;
+    padding: .5rem 0;
+    font-size: 1rem;
+    width: 15%;
+    transition: all 1s;
+}
+
+.button:hover {
+    transform: translateX(.5rem);
+}
+
+/* Responsive */
+
+@media screen and (max-width: 1000px) {
+
+    /* Banner */
+    .banner img {
+        display: none;
+    }
+
+    .section {
+        width: 80%;
+    }
+
+    .button {
+        width: 50%;
+    }
+
+
+}
+
+@media screen and (max-width: 800px) {
+
+    .landing{
+        background-position-x: -15rem;
+    }
+
+    .nav{
+       padding: 0;
+       align-items: center;
+       justify-content: space-around;
+       height: 15vh;
+    }
+
+    .nav h1{
+        margin-left: .5rem;
+    }
+
+    .options {
+        width: 100%;
+    }
+
+    .section h1{
+        font-size: 3rem;
+    }
+
+    .section p{
+        padding: 0;
+    }
+
+}
