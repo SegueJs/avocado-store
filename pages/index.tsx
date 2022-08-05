@@ -38,7 +38,7 @@ const Home: NextPage = () => {
             <div className={styles.title}>
               <h1>Find your favorite</h1>
               <span>AVOCADO</span>
-              <h1>In just few steps</h1>
+              <h1>In just a few steps</h1>
             </div>
             <p>A place where you can see and buy all types of avocados</p>
             <Link href="/products">
