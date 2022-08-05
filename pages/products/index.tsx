@@ -30,7 +30,7 @@ const Products: NextPage = () => {
       <Head>
         <title>Products</title>
       </Head>
-      <Grid mt={1} container spacing={3} justifyContent="center">
+      <Grid mt={1} mb={4} container spacing={3} justifyContent="center">
         {products.map((item) => (
           <Grid item xs={10} md={7}>
             <ListItem item={item} onClick={onClick} />

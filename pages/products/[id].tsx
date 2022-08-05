@@ -46,7 +46,7 @@ const ProductDetail: NextPage = () => {
   return (
     <>
       <Head>
-        <title>{product.name}</title>
+        <title>{product?.name}</title>
       </Head>
       <div className={styles.container}>
         <div className={styles.content}>
